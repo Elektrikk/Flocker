@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from './header/Header';
+import Body from './body/Body';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     return (
         <div>
           <Header/>
-          <h1>{data}</h1>
+          <Body />
+          {/* <h1>{data}</h1> */}
         </div>
       );
 }
